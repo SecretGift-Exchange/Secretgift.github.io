@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: #f0c040;
+    padding: 1em;
+}
+
+main {
+    margin: 2em auto;
+    max-width: 600px;
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    width: 60%;
+    margin-right: 0.5em;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #40c0f0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #30a0d0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.instructions {
+    margin-bottom: 1em;
+}
